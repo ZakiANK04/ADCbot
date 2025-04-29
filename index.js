@@ -214,4 +214,4 @@ client.on('interactionCreate', async interaction => {
 });
 
 // Login to Discord
-client.login(TOKEN);
+client.login(process.env.TOKEN);
